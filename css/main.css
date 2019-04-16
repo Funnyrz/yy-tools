@@ -1,0 +1,63 @@
+html, body {
+    box-sizing: border-box;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-image: url(../img/bg-img-1.jpg);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.demo {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+}
+
+.demo p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.demo div {
+    color: #FFFFFF;
+}
+
+.w-center {
+    padding-top: 17rem;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-outline-dark {
+    border-color: #FFF !important;
+    color: #FF6666 !important;
+    border-radius: 18px !important;
+}
+
+.btn-outline-dark:hover {
+    color: #FFF !important;
+    border-color: #FFF !important;
+    border-radius: 5px !important;
+}
+
+.beiyong p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.beiyong a {
+    font-size: 13px;
+    padding-top: 5px;
+    color: #33CC99;
+    text-decoration: none;
+}
+
+.beiyong a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
